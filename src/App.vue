@@ -3,13 +3,8 @@
     <h2>CSS Demo 练习</h2>
     <div class="container">
       <div class="left">
-        <div class="link">
-          <router-link to="/cssColumn">CSS columns轻松实现两端对齐</router-link>
-        </div>
-        <div class="link">
-          <router-link to="/FlexJustifyContent"
-            >flex多行布局最后一行布局问题</router-link
-          >
+        <div class="link" v-for="item in routes" :key="item.name">
+          <router-link :to="item.path">{{ item.name }}</router-link>
         </div>
       </div>
       <div class="right">
@@ -22,6 +17,16 @@
 <script>
 export default {
   name: 'App',
+  data() {
+    return {
+      routes: [
+        { name: 'CSS columns轻松实现两端对齐', path: '/cssColumn' },
+        { name: 'flex多行布局最后一行布局问题', path: '/FlexJustifyContent' },
+        { name: '全局Loading组件', path: '/Loading' },
+        { name: '清除浮动', path: '/ClearFloat' },
+      ],
+    }
+  },
 }
 </script>
 

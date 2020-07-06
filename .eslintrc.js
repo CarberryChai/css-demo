@@ -17,7 +17,6 @@ module.exports = {
         semi: false,
         tabWidth: 2,
         jsxSingleQuote: false,
-        printWidth: 80,
         arrowParens: 'avoid',
         trailingComma: 'es5',
       },
