@@ -1,5 +1,5 @@
 module.exports = {
-  lintOnSave: true,
+  lintOnSave: false,
   chainWebpack: config => {
     config.module
       .rule('images')

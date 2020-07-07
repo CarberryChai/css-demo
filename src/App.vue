@@ -24,6 +24,7 @@ export default {
         { name: 'flex多行布局最后一行布局问题', path: '/FlexJustifyContent' },
         { name: '全局Loading组件', path: '/Loading' },
         { name: '清除浮动', path: '/ClearFloat' },
+        { name: 'Nav布局', path: '/NavLayout' },
       ],
     }
   },
