@@ -32,20 +32,10 @@ export default {
 </script>
 
 <style lang="scss">
-* {
-  margin: 0;
-  padding: 0;
-}
 #app {
   h2 {
     text-align: center;
     margin: 10px 0;
-  }
-}
-a {
-  text-decoration: none;
-  &:focus {
-    outline: none;
   }
 }
 .container {

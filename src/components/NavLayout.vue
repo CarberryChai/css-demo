@@ -1,8 +1,8 @@
 <template>
   <div class="nav">
-    <a href class="nav-item">导航一</a>
-    <a href class="nav-item">导航二</a>
-    <a href class="nav-item">导航三</a>
+    <a href="#" class="nav-item">导航一</a>
+    <a href="#" class="nav-item">导航二</a>
+    <a href="#" class="nav-item">导航三</a>
   </div>
 </template>
 
