@@ -9,10 +9,7 @@
     </div>
     <button class="btn" @click="toogle">{{ isShow ? '取消' : '添加' }}浮动</button>
     <p>
-      <code>
-        .clear { &::after { content: " "; display: block; clear: both; }
-        }
-      </code>
+      <code>.clear { &::after { content: " "; display: block; clear: both; } }</code>
     </p>
   </div>
 </template>
@@ -49,15 +46,5 @@ export default {
     display: block;
     clear: both;
   }
-}
-.btn {
-  outline: none;
-  padding: 0.5em 1em;
-  border-radius: 0.3em;
-  border: 1px solid #ddd;
-  cursor: pointer;
-  background-color: #fff;
-  margin: 10px;
-  color: #666;
 }
 </style>

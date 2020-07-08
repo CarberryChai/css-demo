@@ -25,6 +25,7 @@ export default {
         { name: '全局Loading组件', path: '/Loading' },
         { name: '清除浮动', path: '/ClearFloat' },
         { name: 'Nav布局', path: '/NavLayout' },
+        { name: '图片上传', path: '/ImageUpload' },
       ],
     }
   },
