@@ -5,6 +5,7 @@ axios.interceptors.response.use(
     return response.data
   },
   function(error) {
+    // console.dir(error)
     return Promise.reject(error)
   }
 )
@@ -15,7 +16,9 @@ function get(url, data) {
 }
 
 function post(url, data) {
-  return axios.post(url, data)
+  return axios.post(url, data).catch(err => {
+    console.dir(err)
+  })
 }
 
 export default {

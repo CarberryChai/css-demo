@@ -26,6 +26,7 @@ export default {
         { name: '清除浮动', path: '/ClearFloat' },
         { name: 'Nav布局', path: '/NavLayout' },
         { name: '图片上传', path: '/ImageUpload' },
+        { name: '无限滚动', path: '/InfiniteScroll' },
       ],
     }
   },

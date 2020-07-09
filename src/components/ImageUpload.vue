@@ -42,7 +42,7 @@ export default {
       const formData = new FormData()
       formData.append('file', this.file)
       this.$http
-        .post(`/api/upload?_csrf=${this.$cookie.get('csrfToken')}`, formData)
+        .post(`/upload/upload?_csrf=${this.$cookie.get('csrfToken')}`, formData)
         .then(res => {
           console.log(res)
         })
@@ -67,7 +67,7 @@ export default {
   position: relative;
   cursor: pointer;
   &::after {
-    content: ' ';
+    content: " ";
     position: absolute;
     height: 2px;
     width: 20px;
@@ -77,7 +77,7 @@ export default {
     transform: translate(-50%, -50%);
   }
   &::before {
-    content: ' ';
+    content: " ";
     position: absolute;
     height: 20px;
     width: 2px;
