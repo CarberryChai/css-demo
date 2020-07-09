@@ -27,6 +27,7 @@ export default {
         { name: 'Nav布局', path: '/NavLayout' },
         { name: '图片上传', path: '/ImageUpload' },
         { name: '无限滚动', path: '/InfiniteScroll' },
+        { name: 'transform scale 的简单示例', path: '/ScaleDemo' },
       ],
     }
   },
